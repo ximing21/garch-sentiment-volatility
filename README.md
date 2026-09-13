@@ -20,12 +20,12 @@ $$\sigma_t^2 = \omega + \alpha\epsilon_{t-1}^2 + \beta\sigma_{t-1}^2.$$
 
 ## Results
 
-| Model | MSE | QLIKE |
+| Model | Variance MSE | QLIKE |
 | --- | ---: | ---: |
 | Baseline GARCH | 1.59523495e-06 | -7.051042 |
 | GARCH + sentiment | 1.59382242e-06 | -7.051395 |
 
-The sentiment model produced a marginally lower QLIKE loss, but the improvement was
+The sentiment model produced a slightly lower QLIKE loss, but the improvement was
 negligible. In this experiment, a simple lagged daily-average sentiment feature did
 not add meaningful predictive value beyond the volatility persistence already captured
 by GARCH(1,1).
