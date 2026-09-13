@@ -22,11 +22,8 @@ $$\sigma_t^2 = \omega + \alpha\epsilon_{t-1}^2 + \beta\sigma_{t-1}^2.$$
 
 | Model | MSE | QLIKE |
 | --- | ---: | ---: |
-| Baseline GARCH | 1.59524313e-06 | -7.051040 |
-| GARCH + sentiment | ≈1.60e-06* | -7.051393 |
-
-\*The existing notebook display rounded the sentiment-model MSE to six decimal places.
-Run the cleaned notebook once and replace this entry with the full-precision output.
+| Baseline GARCH | 1.59523495e-06 | -7.051042 |
+| GARCH + sentiment | 1.59382242e-06* | -7.051395 |
 
 The sentiment model produced a marginally lower QLIKE loss, but the improvement was
 negligible. In this experiment, a simple lagged daily-average sentiment feature did
