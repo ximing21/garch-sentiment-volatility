@@ -87,7 +87,7 @@ the first notebook. To reproduce only the forecasting experiment, skip the first
 notebook and use the included `data/tech_sentiment_progress.csv` file.
 
 The market prices are downloaded when the notebook runs. The sentiment CSV is read
-from `data/tech_sentiment_progress.csv`; no Google Drive mount is required.
+from `data/tech_sentiment_progress.csv`.
 
 ## Limitations
 
